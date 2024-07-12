@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Viertson Music</title>
+  </head>
+
+  <style>
+    #home {
+      background-image: url("img/image.jpg");
+      height: 93vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      backdrop-filter: blur;
+    }
+
+    .typewriter {
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto;
+    }
+
+    .typewriter::after {
+      content: "|";
+      display: inline-block;
+      width: 0;
+      opacity: 1;
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        width: 0;
+      }
+
+      50% {
+        width: 1em;
+      }
+    }
+  </style>
+
+  <body>
+    <!-- Start Home -->
+    <section id="navbar">
+      <nav class="navbar">
+        <div class="navbar-left">
+          <a href="#home">Utama</a>
+          <a href="#produk">Produk</a>
+        </div>
+        <div class="navbar-logo">
+          <a href="#home"
+            >Viertson<span style="color: rgb(219, 116, 133)">Music</span></a
+          >
+        </div>
+        <div class="navbar-right">
+          <a href="#pembelian">Pembelian</a>
+          <a href="#contact">Profile</a>
+        </div>
+      </nav>
+    </section>
+
+    <section id="home">
+      <div class="about">
+        <h1 class="typewriter"></h1>
+      </div>
+    </section>
+
+    <section id="produk">
+      <div class="produk">
+        <h2>Produk</h2>
+      </div>
+    </section>
+
+    <section id="foto">
+      <div class="gallery">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1508025207422-d8d96174b278?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFsYXQlMjBtdXNpa3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="Image 1"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1508025487571-d8ea8d0afe54?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFsYXQlMjBtdXNpa3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="Image 2"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1664303068754-e0b00c4e02be?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image 3"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1681389126675-75082417b4bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image 4"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1681389126724-4f9a956845e7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWxhdCUyMG11c2lrfGVufDB8fDB8fHww"
+            alt="Image 5"
+          />
+        </div>
+        <div class="image">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1703084848603-4a309914d40a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image 5"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="pembelian">
+      <div class="pembelian">
+        <h2
+          style="
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            font-size: 47px;
+          "
+        >
+          Pembelian
+        </h2>
+        <form name="form1" class="form-container">
+          <label for="txtNim">Masukkan Nama :</label>
+          <input type="text" name="txtNama" id="txtNama" required />
+
+          <label for="txtNama">Masukkan Nama Barang:</label>
+          <input type="text" name="txtNamaBarang" id="txtNamaBarang" required />
+
+          <label for="txtAlamat">Masukkan Alamat:</label>
+          <input type="text" name="txtAlamat" id="txtAlamat" required />
+
+          <div class="form-buttons">
+            <input
+              type="button"
+              value="Simpan"
+              name="btn2"
+              onclick="simpan()"
+            />
+            <input
+              type="button"
+              value="Tampilkan"
+              name="btn3"
+              onclick="tampil()"
+            />
+          </div>
+
+          <table border="1" id="hasil">
+            <tr>
+              <th>NIM</th>
+              <th>Nama</th>
+              <th>Alamat</th>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </section>
+
+    <!-- End Tools -->
+
+    <!-- Start Contact -->
+    <section id="contact">
+      <h2
+        style="
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 50px;
+          font-size: 47px;
+        "
+      >
+        Profile
+      </h2>
+      <div class="contact-container">
+        <div class="contact-photo">
+          <img src="img/Profil image.jpg" style="width: 300px;" alt="Contact Photo" />
+        </div>
+        <div class="contact-description">
+          <h2>Profile Saya</h2>
+          <p>
+            Selamat datang di Vierston Musik! Kami menyediakan alat musik
+            berkualitas tinggi untuk semua musisi, mulai dari pemula hingga
+            profesional. Dengan berbagai pilihan gitar, piano, drum, dan alat
+            musik tiup, kami berkomitmen untuk membantu Anda menemukan instrumen
+            yang sempurna untuk menghidupkan passion musik Anda. Temukan
+            inspirasi musik Anda di [Nama Toko Anda] dan jadilah bagian dari
+            komunitas musik kami!
+          </p>
+          <br />
+          <p>Founder : Vierston</p>
+          <p>Kelas : IS-1</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+        <footer>
+            <p>Web Created By Viertson</p>
+        </footer>
+    </section>
+
+    <!-- Contact End -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const text = "Selamat datang di Viertson Music!";
+        let index = 0;
+        const typewriterElement = document.querySelector(".typewriter");
+        const caretElement = document.querySelector(".typewriter::after");
+
+        function typeWriter() {
+          if (index < text.length) {
+            typewriterElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(typeWriter, 45);
+          } else {
+            clearInterval(blinkInterval);
+          }
+        }
+
+        typeWriter();
+
+        const blinkInterval = setInterval(function () {
+          caretElement.style.opacity =
+            caretElement.style.opacity === "0" ? "1" : "0";
+        }, 750);
+      });
+
+      var data = [];
+      var i = 0;
+
+      function simpan() {
+        data[i] = {
+          nama: document.form1.txtNama.value,
+          namabarang: document.form1.txtNamaBarang.value,
+          alamat: document.form1.txtAlamat.value,
+        };
+        document.form1.txtNama.value = "";
+        document.form1.txtNamaBarang.value = "";
+        document.form1.txtAlamat.value = "";
+        i++;
+        alert("Data telah disimpan");
+      }
+
+      function tampil() {
+        var isi = "<tr><th>Nama</th><th>Nama Barang</th><th>Alamat</th></tr>";
+        for (var j = 0; j < data.length; j++) {
+          isi +=
+            "<tr><td>" +
+            data[j].nama +
+            "</td><td>" +
+            data[j].namabarang +
+            "</td><td>" +
+            data[j].alamat +
+            "</td></tr>";
+        }
+        document.getElementById("hasil").innerHTML = isi;
+      }
+    </script>
+  </body>
+</html>
