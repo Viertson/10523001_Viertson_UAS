@@ -1,13 +1,10 @@
-/* Body */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Body */
-
-/* Start Home */
 #navbar {
     position: sticky;
     top: 0;
@@ -61,9 +58,7 @@ body {
     font-size: 50px;
 }
 
-/* End Home */
 
-/* Start Works */
 #foto {
     display: flex;
     justify-content: center;
@@ -107,10 +102,6 @@ body {
     padding: 4rem 7% 0.1em;
 }
 
-/* End Works */
-
-/* Start Tools */
-/* Styling for the pembelian section */
 .pembelian {
     padding: 4rem 7% 1em;
 }
@@ -174,11 +165,6 @@ body {
     background-color: #f9f9f9;
 }
 
-
-/* Tools End */
-
-/* Start Contact */
-/* Contact Section */
 #contact {
     padding: 50px;
     background-color: #f9f9f9;
@@ -213,8 +199,6 @@ body {
     color: #333;
   }
   
-  
-  /* Contact End */
 footer {
     background-color: black;
     color: white;
